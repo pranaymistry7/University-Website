@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i> 
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Cources</h1>
+    </section>
+        <!-- ---------courses-------------- -->
+        <section class="course">
+            <h1>Courses we offer</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe incidunt vel eos!</p>
+            
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui optio molestiae libero impedit voluptate aut dolorem repellendus dolor est expedita quia quod quos totam.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui optio molestiae libero impedit voluptate aut dolorem repellendus dolor est expedita quia quod quos totam.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui optio molestiae libero impedit voluptate aut dolorem repellendus dolor est expedita quia quod quos totam.</p>
+                </div>
+            </div>
+        </section>
+
+            <!-- --------facilities----------- -->
+        <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe incidunt vel eos!</p>
+        
+        <div class="row">
+            <div class="facilities-col">
+                <img src="eduford_img/library.png" >
+                <h3>World Class library</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe incidunt vel eos!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/basketball.png" >
+                <h3>Sports Centre</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe incidunt vel eos!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/cafeteria.png" >
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe incidunt vel eos!</p>
+            </div>
+        </div>
+        
+
+    </section>
+
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus facere fugiat a itaque eligendi. Earum consectetur veritatis <br> illum repudiandae debitis facilis, modi quam laudantium </p>
+        <div class="icons">
+            <i class='fab fa-facebook-f'></i>
+            <i class='fab fa-instagram'></i>
+            <i class='fab fa-twitter'></i>
+            <i class='fab fa-linkedin-in'></i>
+        </div>
+        
+        <p>Made with <i class='fas fa-hand-holding-heart'></i> by Pranay</p>
+        
+    </section>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
